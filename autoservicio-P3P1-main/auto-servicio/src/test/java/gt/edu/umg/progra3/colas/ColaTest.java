@@ -5,13 +5,11 @@ import org.junit.Test;
 
 public class ColaTest {
 
-    private Cola cola;
+    private ColaImpl cola;
 
     @Before
     public void init(){
-        //Reemplazar por la implementacion desarrollada
-        //luego, quitar comentario
-        //cola = new ColaImpl();
+        cola = new ColaImpl();
 
         cola.enqueue("Bienvenidos");
         cola.enqueue("a");
